@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prinz Noel Faina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">       
+</head>
+<body>
+    <section id="hero">
+    <div class="hero-container">
+        <h1><span id="typed-text"></span></h1>
+<h2 class="sub-symbol"><b>⛧°. ⋆༺♱༻⋆. °⛧</b></h2>
+<h3 class="sub-symbol"><b>Welcome</b> to my Portfolio feel Free to listen to music will you scroll</h3>
+    </div>
+</section>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about-me"><b>About me</b></a></li>
+            <li><a href="#my-skills"><b>My Skills</b></a></li>
+            <li><a href="#Achievements-projects"><b>Achievements and Projects</b></a></li>
+            <li><a href="#educational-background"><b>Educational Background</b></a></li>
+            <li><a href="#contact-info"><b>Contact Info</b></a></li>
+        </ul>
+    </nav>   
+</header>
+    <main> 
+        <section>
+        <div id="music-player" style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; background: rgba(244, 244, 240, 0); padding: 10px 10px; border-radius: 10px; box-shadow: 0 0 10px rgba(255,255,255,0.2); backdrop-filter: blur(5px);">
+            <audio id="bg-music" loop>
+                <source id="music-source" src="/music/Quiet.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <select id="music-select" style="margin-bottom: 5px; font-family: 'Courier New', Courier, monospace; padding: 3px; border-radius: 5px;">
+                <option value="/music/Quiet.mp3">Nights</option>
+                <option value="/music/Cove.mp3">Chill</option>
+                <option value="/music/Casual.mp3">Casual</option>
+                <option value=music/Multo.mp3>Relapse</option>
+                
+    
+            </select>
+            
+            <button onclick="toggleMusic()" id="music-btn" style="
+                background-color: #0087e1; color: white; 
+                font-family: 'Courier New', Courier, monospace; 
+                border: none; 
+                padding: 5px 5px; 
+                border-radius: 5px; 
+                cursor: pointer;
+                font-size: 15px;
+                transition: background-color 0.3s ease;">
+                Play Music 🎵
+            </button>
+        </div>
+    </section>
+        <div>
+            <section class="section-with-clouds fade-section" id="about-me">
+                <div class="clouds"></div>
+                <div class="aboutcontainer">
+                    <div class="profile-pic-container">
+                        <img src="/pictures/491023593_1228860578868183_3047302053833925933_n.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="about-text">
+                        <h2><b>About Me</b></h2>
+                        <p>
+                            Hello I am <b>Prinz Noel Faina</b>, a 20-year-old student currently pursuing a Bachelor of Science in Information Technology at National University Lipa. I am passionate about technology and its potential to create positive change in the world. I enjoy coding, gaming, and exploring new ideas. I believe in continuous learning and strive to improve my skills every day. In my free time, I love to play games and listen to music. I am excited to share my journey with you!
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section class="section-with-clouds fade-section" id="my-skills">
+            <div class="clouds"></div>
+            <div class="skillscontainer">
+                <h2 style="color: #00A7E1; font-size: 40px; font-family: 'Courier New', Courier, monospace; margin-bottom: 30px;"><b>My Skills</b></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="/pictures/12-1717012195121-compressed.jpg" alt="Coding" />
+                        <div class="skill-text">
+                            <h3><b>Coding Skills</b></h3>
+                            <p>Experience in HTML, CSS, JavaScript, and Python. Able to build responsive and interactive websites.</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/pictures/1638079565-Untitleddesign-2021-11-28T100532825.webp" alt="Communication" />
+                        <div class="skill-text">
+                            <h3><b>Communication Skills</b></h3>
+                            <p>Effective public speaking, teamwork, and leadership in collaborative environments.</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/pictures/360_F_285904463_52tKiXp592qUhmg24eS3f4k1kGQSji3f.jpg" alt="Gaming" />
+                        <div class="skill-text">
+                            <h3><b>Gaming Skills</b></h3>
+                            <p>Strategic thinking and reflex training from competitive and team-based games.</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/pictures/belting.jpeg" alt="Other" />
+                        <div class="skill-text">
+                            <h3><b>Other Skills</b></h3>
+                            <p>Creative design, photo editing, and music mixing using various software tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-with-clouds fade-section" id="Achievements-projects">
+            <div class="skillscontainer">
+                <div class="clouds"></div>
+                <h2 style="color: #00A7E1; font-size: 40px; font-family: 'Courier New', Courier, monospace; margin-bottom: 30px;"><b>Achievements-projects</b></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="pictures/4981950b-7ffa-4bbf-b02b-84bbfcc4161c.jpg" alt="Coding" />
+                        <div class="skill-text">
+                            <h3><b>Nutify</b></h3>
+                            <p>A innovative app that provides transparancy between students and teachers</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <img src=pictures/8c181c75-1f85-4392-b95d-050aa977626a.jpg alt="Communication" />
+                        <div class="skill-text">
+                            <h3>Fitrack</h3>
+                            <p>An App that tracks calories and helps you to stay fit</p>
+                        </div>
+                    </div>
+                <div class="skill-card">
+                    <img src=pictures/taken.png alt="Communication" />
+                    <div class="skill-text">
+                        <h3><b>Blink Gone</b></h3>
+                        <p>A C++ pixelated game that dodges bullets and achieving the highest score</p>
+                    </div>
+                </div>
+                    <div class="skill-card">
+                        <img src="/pictures/WEEPING BELL PET.png" alt="Other" />
+                        <div class="skill-text">
+                            <h3><b>Weeping Bell Pet</b></h3>
+                            <p>Feed the weeping Bell, take care of its health and don't let it Die</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="pictures/Edutrack.jpg" alt="Other" />
+                        <div class="skill-text">
+                            <h3><b>>Edutrack</b></h3>
+                            <p>A netbeans project that helps students to take notes,calculates,and track your savings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-with-clouds fade-section" id="educational-background">
+            <div class="clouds"></div>
+                <div class="container" style="background-color: rgba(255, 255, 255, 0); padding: 50px; box-shadow: 0px 2px 5px 5px rgba(255, 213, 0, 0.997); border-radius: 20px; margin: 40px auto; max-width: 800px; color: white;">
+                    <h2 style="color: #00A7E1; font-size: 40px; font-family: 'Courier New', Courier, monospace; margin-bottom: 30px;">Educational Background</h2>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li style="margin-bottom: 40px;">
+                            <h4 style="margin: 50;">📓๋࣭ ⭑✐ Bachelor of Science in Computer Science</h4>
+                            <h6 style="margin: 50;"> Bachelor of BSIT</h6>
+                            <p style="margin: 50;">National University Lipa – 2023 - Till now</p>
+                        </li>
+                        <li style="margin-bottom: 40px;">
+                            <h4 style="margin: 50;"> 🎓 Lipa Adventist Academy</h4>
+                            <h6 style="margin: 50;"> Senior High Graduate</h6>
+                            <p style="margin: 50;">School Year – 2021 - 2023</p>
+                        </li>
+                        <li style="margin-bottom: 40px;">
+                            <h4 style="margin: 50;">🏫 Lipa Adeventist Academy</h4>
+                            <h6 style="margin: 50;"> Junior High</h6>
+                            <p style="margin: 50;">School Year – 2017 - 2021</p>
+                        </li>
+                        <li style="margin-bottom: 40px;">
+                            <h4 style="margin: 50;">🎒 Lipa Adventist Elementary School</h4>
+                            <h6 style="margin: 50;"> Elementary</h6>
+                            <p style="margin: 50;">School Year – 2011 - 2017</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        <section class="section-with-clouds fade-section" id="contact-info">
+            <div class="clouds"></div>
+            <footer style="padding: 40px 20px; text-align: center; font-family: 'Courier New', Courier, monospace; color: white; background-color: rgba(0, 0, 0, 0); border-radius: 20px; box-shadow: 0px 2px 5px 5px rgba(255, 213, 0, 0.997); margin: 40px auto; max-width: 800px;">
+                <div style="margin-bottom: 20px;">
+                  <a href="https://discordapp.com/users/moki11297" style="margin: 0 10px; color: white; font-size: 50px;padding: 10px; display: inline-block; transition: all 0.3s;">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                    <a href="https://www.instagram.com/diet.pdf/" style="margin: 0 10px; color: white; font-size: 50px; padding: 10px; display: inline-block; transition: all 0.3s;">
+                        <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.facebook.com/prinznoel.faina" style="margin: 0 10px; color: white; font-size: 50px; padding: 10px; display: inline-block; transition: all 0.3s;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                    <a href="https://github.com/BluWeeWoo" style="margin: 0 10px; color: white; font-size: 50px;padding: 10px; display: inline-block; transition: all 0.3s;">
+                        <i class="fab fa-github"></i>
+                        
+                  </a>
+                </div>
+                <p style="margin-top: 20px; color: #E0FF4F;">&copy; Prinz Noel Faina | All Rights Reserved</p>
+              </footer>
+              
+      
+
+    <script>
+        var typed = new Typed('#typed-text', {
+            strings: ['Hi Im Prinz Noel Faina ⭐'],
+            typeSpeed: 150,
+            backSpeed: 100,
+            loop: true
+        });
+        const audio = document.getElementById("bg-music");
+        const musicBtn = document.getElementById("music-btn");
+        const musicSelect = document.getElementById("music-select");
+        const musicSource = document.getElementById("music-source");
+        function toggleMusic() {
+            if (audio.paused) {
+                audio.play();
+                musicBtn.innerText = "Stop Music 🔇";
+            } else {
+                audio.pause();
+                musicBtn.innerText = "Play Music 🎵";
+            }
+        }   
+        musicSelect.addEventListener("change", function () {
+            const selectedTrack = this.value;
+            const wasPlaying = !audio.paused;
+            audio.pause();
+            musicSource.src = selectedTrack;
+            audio.load();
+            if (wasPlaying) {
+                audio.play();
+            }
+        });
+   
+        window.addEventListener('scroll', function() {
+            var aboutSection = document.getElementById('about-me');
+            if (window.scrollY > 100) { 
+                aboutSection.classList.add('visible');
+            }
+        });
+          
+            document.addEventListener('DOMContentLoaded', () => {
+                const sections = document.querySelectorAll('.fade-section');
+        
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        }
+                    });
+                }, { threshold: 0.1 });
+        
+                sections.forEach(section => {
+                    observer.observe(section);
+                });
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
